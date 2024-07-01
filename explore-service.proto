@@ -11,7 +11,7 @@ service ExploreService {
 
 message ListLikedYouRequest {
   string recipient_user_id = 1;
-  string pagination_token = 2;
+  optional string pagination_token = 2;
 }
 
 message ListLikedYouResponse {
