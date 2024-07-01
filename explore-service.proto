@@ -34,7 +34,7 @@ message CountLikedYouResponse {
 message PutDecisionRequest {
   string actor_user_id = 1;
   string recipient_user_id = 2;
-  bool liked = 3;
+  bool liked_recipient = 3;
 }
 
 message PutDecisionResponse {
